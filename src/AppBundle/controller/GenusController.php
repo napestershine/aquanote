@@ -9,7 +9,16 @@
 namespace AppBundle\controller;
 
 
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+
 class GenusController
 {
+    /**
+     * @Route("/genus")
+     */
+    public function showAction()
+    {
+
+    }
 
 }
