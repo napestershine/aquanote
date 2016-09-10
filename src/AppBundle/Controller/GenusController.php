@@ -1,15 +1,9 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: root
- * Date: 10/9/16
- * Time: 5:58 AM
- */
 
-namespace AppBundle\controller;
-
+namespace AppBundle\Controller;
 
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+use Symfony\Component\HttpFoundation\Response;
 
 class GenusController
 {
@@ -18,7 +12,6 @@ class GenusController
      */
     public function showAction()
     {
-
+        return new Response("Under the Sea!");
     }
-
 }
